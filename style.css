@@ -1,0 +1,65 @@
+html {
+    width: 1680px;
+    height: 1680px;
+}
+
+#myChannel {
+    display: block;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+}
+
+#sup {
+    font-family: 'Russo One', sans-serif;
+    position: relative;
+    color: white;
+    left: 10px;
+    top: -20px;
+    font-size: 40px;
+}
+
+#idk {
+    background-color: #0096ff;
+    position: fixed;
+    width: 1680px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#do {
+    font-size: 30px;
+    position: relative;
+    top: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#texting {
+    position: relative;
+    top: 190px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#dboy {
+    position: relative;
+    top: -50px;
+    left: 800px;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
